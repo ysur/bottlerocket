@@ -177,3 +177,8 @@ reservedMemory:
 {{/each}}
 {{/if}}
 {{/if}}
+failSwapOn: false
+featureGates:
+  NodeSwap: true
+memorySwap:
+  swapBehavior: UnlimitedSwap
